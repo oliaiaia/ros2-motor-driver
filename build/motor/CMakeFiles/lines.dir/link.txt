@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/lines.dir/src/multi_line.cpp.o -o lines  /usr/lib/aarch64-linux-gnu/libgpiod.so 
