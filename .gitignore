@@ -1,5 +1,5 @@
-build
-include
-install
-log
+build/
+include/
+install/
+log/
 LICENSE
