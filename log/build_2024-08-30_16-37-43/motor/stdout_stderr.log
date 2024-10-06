@@ -1,0 +1,17 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/motor.dir/src/driver.cpp.o[0m
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:83:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kgpiod_chip_get_line[m[K’ was not declared in this scope; did you mean ‘[01m[Kgpiod_chip_get_info[m[K’?
+   83 |     line = [01;31m[Kgpiod_chip_get_line[m[K(chip, 21);
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |            [32m[Kgpiod_chip_get_info[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:88:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kgpiod_line_request_input[m[K’ was not declared in this scope; did you mean ‘[01m[Kgpiod_line_request_get_fd[m[K’?
+   88 |     req = [01;31m[Kgpiod_line_request_input[m[K(line, "gpio_state");
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |           [32m[Kgpiod_line_request_get_fd[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:93:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kgpiod_line_get_value[m[K’ was not declared in this scope; did you mean ‘[01m[Kgpiod_line_value[m[K’?
+   93 |     value = [01;31m[Kgpiod_line_get_value[m[K(line);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[Kgpiod_line_value[m[K
+gmake[2]: *** [CMakeFiles/motor.dir/build.make:76: CMakeFiles/motor.dir/src/driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

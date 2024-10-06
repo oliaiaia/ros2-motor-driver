@@ -1,0 +1,230 @@
+[0.000000] (-) TimerEvent: {}
+[0.001768] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.001938] (motor) JobStarted: {'identifier': 'motor'}
+[0.045064] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[0.050696] (motor) JobProgress: {'identifier': 'motor', 'progress': 'build'}
+[0.053519] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/olia/ros2_ws/src/motor/build/motor', '--', '-j4', '-l4'], 'cwd': '/home/olia/ros2_ws/src/motor/build/motor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'olia', 'SSH_CLIENT': '192.168.0.163 56044 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'HOME': '/home/olia', 'OLDPWD': '/home/olia/ros2_ws/src/motor/src', 'SSH_TTY': '/dev/pts/2', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'olia', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '8', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/olia/ros2_ws/src/motor/build/motor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.163 56044 192.168.0.199 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1'}), 'shell': False}
+[0.098579] (-) TimerEvent: {}
+[0.199482] (-) TimerEvent: {}
+[0.300465] (-) TimerEvent: {}
+[0.401371] (-) TimerEvent: {}
+[0.502050] (-) TimerEvent: {}
+[0.602977] (-) TimerEvent: {}
+[0.681788] (motor) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.703166] (-) TimerEvent: {}
+[0.803983] (-) TimerEvent: {}
+[0.904528] (-) TimerEvent: {}
+[1.005042] (-) TimerEvent: {}
+[1.105629] (-) TimerEvent: {}
+[1.206124] (-) TimerEvent: {}
+[1.306760] (-) TimerEvent: {}
+[1.407372] (-) TimerEvent: {}
+[1.507945] (-) TimerEvent: {}
+[1.608642] (-) TimerEvent: {}
+[1.709320] (-) TimerEvent: {}
+[1.809880] (-) TimerEvent: {}
+[1.910616] (-) TimerEvent: {}
+[2.011459] (-) TimerEvent: {}
+[2.112154] (-) TimerEvent: {}
+[2.212801] (-) TimerEvent: {}
+[2.313525] (-) TimerEvent: {}
+[2.414237] (-) TimerEvent: {}
+[2.514843] (-) TimerEvent: {}
+[2.615410] (-) TimerEvent: {}
+[2.715988] (-) TimerEvent: {}
+[2.816693] (-) TimerEvent: {}
+[2.917489] (-) TimerEvent: {}
+[3.018307] (-) TimerEvent: {}
+[3.118897] (-) TimerEvent: {}
+[3.219562] (-) TimerEvent: {}
+[3.320301] (-) TimerEvent: {}
+[3.420925] (-) TimerEvent: {}
+[3.521684] (-) TimerEvent: {}
+[3.622478] (-) TimerEvent: {}
+[3.723452] (-) TimerEvent: {}
+[3.824362] (-) TimerEvent: {}
+[3.925184] (-) TimerEvent: {}
+[4.025988] (-) TimerEvent: {}
+[4.126770] (-) TimerEvent: {}
+[4.227614] (-) TimerEvent: {}
+[4.328604] (-) TimerEvent: {}
+[4.429446] (-) TimerEvent: {}
+[4.530330] (-) TimerEvent: {}
+[4.631216] (-) TimerEvent: {}
+[4.732063] (-) TimerEvent: {}
+[4.833030] (-) TimerEvent: {}
+[4.933997] (-) TimerEvent: {}
+[5.034801] (-) TimerEvent: {}
+[5.135437] (-) TimerEvent: {}
+[5.236224] (-) TimerEvent: {}
+[5.337029] (-) TimerEvent: {}
+[5.437833] (-) TimerEvent: {}
+[5.538590] (-) TimerEvent: {}
+[5.639450] (-) TimerEvent: {}
+[5.740444] (-) TimerEvent: {}
+[5.841414] (-) TimerEvent: {}
+[5.942325] (-) TimerEvent: {}
+[6.043142] (-) TimerEvent: {}
+[6.144031] (-) TimerEvent: {}
+[6.244996] (-) TimerEvent: {}
+[6.345920] (-) TimerEvent: {}
+[6.446827] (-) TimerEvent: {}
+[6.547749] (-) TimerEvent: {}
+[6.648716] (-) TimerEvent: {}
+[6.749416] (-) TimerEvent: {}
+[6.850082] (-) TimerEvent: {}
+[6.950770] (-) TimerEvent: {}
+[7.051402] (-) TimerEvent: {}
+[7.152018] (-) TimerEvent: {}
+[7.252702] (-) TimerEvent: {}
+[7.353380] (-) TimerEvent: {}
+[7.454067] (-) TimerEvent: {}
+[7.554903] (-) TimerEvent: {}
+[7.655618] (-) TimerEvent: {}
+[7.756220] (-) TimerEvent: {}
+[7.857102] (-) TimerEvent: {}
+[7.958563] (-) TimerEvent: {}
+[8.059908] (-) TimerEvent: {}
+[8.161422] (-) TimerEvent: {}
+[8.262906] (-) TimerEvent: {}
+[8.364351] (-) TimerEvent: {}
+[8.465720] (-) TimerEvent: {}
+[8.567377] (-) TimerEvent: {}
+[8.668837] (-) TimerEvent: {}
+[8.770862] (-) TimerEvent: {}
+[8.872606] (-) TimerEvent: {}
+[8.973950] (-) TimerEvent: {}
+[9.075556] (-) TimerEvent: {}
+[9.177036] (-) TimerEvent: {}
+[9.278601] (-) TimerEvent: {}
+[9.379961] (-) TimerEvent: {}
+[9.481526] (-) TimerEvent: {}
+[9.583003] (-) TimerEvent: {}
+[9.684443] (-) TimerEvent: {}
+[9.785890] (-) TimerEvent: {}
+[9.887474] (-) TimerEvent: {}
+[9.988933] (-) TimerEvent: {}
+[10.090371] (-) TimerEvent: {}
+[10.191807] (-) TimerEvent: {}
+[10.293054] (-) TimerEvent: {}
+[10.394662] (-) TimerEvent: {}
+[10.496149] (-) TimerEvent: {}
+[10.597700] (-) TimerEvent: {}
+[10.699070] (-) TimerEvent: {}
+[10.800580] (-) TimerEvent: {}
+[10.902060] (-) TimerEvent: {}
+[11.003502] (-) TimerEvent: {}
+[11.104808] (-) TimerEvent: {}
+[11.206402] (-) TimerEvent: {}
+[11.307835] (-) TimerEvent: {}
+[11.409320] (-) TimerEvent: {}
+[11.510787] (-) TimerEvent: {}
+[11.612099] (-) TimerEvent: {}
+[11.713104] (-) TimerEvent: {}
+[11.814468] (-) TimerEvent: {}
+[11.915357] (-) TimerEvent: {}
+[12.016062] (-) TimerEvent: {}
+[12.116710] (-) TimerEvent: {}
+[12.217374] (-) TimerEvent: {}
+[12.318132] (-) TimerEvent: {}
+[12.419360] (-) TimerEvent: {}
+[12.519931] (-) TimerEvent: {}
+[12.620686] (-) TimerEvent: {}
+[12.722047] (-) TimerEvent: {}
+[12.823281] (-) TimerEvent: {}
+[12.924043] (-) TimerEvent: {}
+[13.025176] (-) TimerEvent: {}
+[13.126080] (-) TimerEvent: {}
+[13.227292] (-) TimerEvent: {}
+[13.328091] (-) TimerEvent: {}
+[13.429594] (-) TimerEvent: {}
+[13.530427] (-) TimerEvent: {}
+[13.631409] (-) TimerEvent: {}
+[13.732022] (-) TimerEvent: {}
+[13.832796] (-) TimerEvent: {}
+[13.934204] (-) TimerEvent: {}
+[14.035353] (-) TimerEvent: {}
+[14.135906] (-) TimerEvent: {}
+[14.236479] (-) TimerEvent: {}
+[14.337074] (-) TimerEvent: {}
+[14.437876] (-) TimerEvent: {}
+[14.538980] (-) TimerEvent: {}
+[14.639857] (-) TimerEvent: {}
+[14.741195] (-) TimerEvent: {}
+[14.842564] (-) TimerEvent: {}
+[14.944173] (-) TimerEvent: {}
+[15.045818] (-) TimerEvent: {}
+[15.147536] (-) TimerEvent: {}
+[15.248587] (-) TimerEvent: {}
+[15.349420] (-) TimerEvent: {}
+[15.450407] (-) TimerEvent: {}
+[15.550972] (-) TimerEvent: {}
+[15.651846] (-) TimerEvent: {}
+[15.753461] (-) TimerEvent: {}
+[15.854061] (-) TimerEvent: {}
+[15.954685] (-) TimerEvent: {}
+[16.055541] (-) TimerEvent: {}
+[16.156832] (-) TimerEvent: {}
+[16.258106] (-) TimerEvent: {}
+[16.359413] (-) TimerEvent: {}
+[16.460644] (-) TimerEvent: {}
+[16.561218] (-) TimerEvent: {}
+[16.661880] (-) TimerEvent: {}
+[16.762490] (-) TimerEvent: {}
+[16.863354] (-) TimerEvent: {}
+[16.964796] (-) TimerEvent: {}
+[17.066204] (-) TimerEvent: {}
+[17.166838] (-) TimerEvent: {}
+[17.267509] (-) TimerEvent: {}
+[17.368146] (-) TimerEvent: {}
+[17.468933] (-) TimerEvent: {}
+[17.569790] (-) TimerEvent: {}
+[17.670908] (-) TimerEvent: {}
+[17.771616] (-) TimerEvent: {}
+[17.872280] (-) TimerEvent: {}
+[17.973174] (-) TimerEvent: {}
+[18.074674] (-) TimerEvent: {}
+[18.176121] (-) TimerEvent: {}
+[18.276682] (-) TimerEvent: {}
+[18.377584] (-) TimerEvent: {}
+[18.478923] (-) TimerEvent: {}
+[18.580199] (-) TimerEvent: {}
+[18.681761] (-) TimerEvent: {}
+[18.782544] (-) TimerEvent: {}
+[18.883042] (-) TimerEvent: {}
+[18.983819] (-) TimerEvent: {}
+[19.085236] (-) TimerEvent: {}
+[19.141629] (motor) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[19.142393] (motor) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[19.142884] (motor) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[19.143301] (motor) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[19.185458] (-) TimerEvent: {}
+[19.271295] (motor) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[19.271855] (motor) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[19.272293] (motor) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[19.272836] (motor) StderrLine: {'line': b'  /home/olia/ros2_ws/src/motor/build/motor/ament_cmake_package_templates/templates.cmake)\n'}
+[19.273147] (motor) StderrLine: {'line': b'  returned error code 1\n'}
+[19.273482] (motor) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[19.273777] (motor) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[19.274064] (motor) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[19.274386] (motor) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[19.274688] (motor) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[19.275046] (motor) StderrLine: {'line': b'\n'}
+[19.275455] (motor) StderrLine: {'line': b'\x1b[0m\n'}
+[19.275764] (motor) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[19.285628] (-) TimerEvent: {}
+[19.300231] (motor) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[19.308428] (motor) CommandEnded: {'returncode': 2}
+[19.385846] (-) TimerEvent: {}
+[19.487162] (-) TimerEvent: {}
+[19.588441] (-) TimerEvent: {}
+[19.689472] (-) TimerEvent: {}
+[19.790434] (-) TimerEvent: {}
+[19.891367] (-) TimerEvent: {}
+[19.992424] (-) TimerEvent: {}
+[20.093420] (-) TimerEvent: {}
+[20.194808] (-) TimerEvent: {}
+[20.295894] (-) TimerEvent: {}
+[20.396543] (-) TimerEvent: {}
+[20.402148] (motor) JobEnded: {'identifier': 'motor', 'rc': 2}
+[20.414519] (-) EventReactorShutdown: {}

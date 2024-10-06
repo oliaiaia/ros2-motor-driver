@@ -1,0 +1,31 @@
+[0.060s] Invoking command in '/home/olia/ros2_ws/src/motor/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/olia/ros2_ws/src/motor/build/motor -- -j4 -l4
+[0.226s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.353s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.624s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.692s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.768s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.856s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.226s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.242s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.646s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.003s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.338s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[3.338s]   By not providing "Findrobot_interfaces.cmake" in CMAKE_MODULE_PATH this
+[3.339s]   project has asked CMake to find a package configuration file provided by
+[3.339s]   "robot_interfaces", but CMake did not find one.
+[3.340s] 
+[3.340s]   Could not find a package configuration file provided by "robot_interfaces"
+[3.340s]   with any of the following names:
+[3.341s] 
+[3.341s]     robot_interfacesConfig.cmake
+[3.341s]     robot_interfaces-config.cmake
+[3.342s] 
+[3.342s]   Add the installation prefix of "robot_interfaces" to CMAKE_PREFIX_PATH or
+[3.342s]   set "robot_interfaces_DIR" to a directory containing one of the above
+[3.343s]   files.  If "robot_interfaces" provides a separate development package or
+[3.343s]   SDK, be sure it has been installed.
+[3.344s] 
+[3.344s] [0m
+[3.345s] -- Configuring incomplete, errors occurred!
+[3.371s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[3.378s] Invoked command in '/home/olia/ros2_ws/src/motor/build/motor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/olia/ros2_ws/src/motor/build/motor -- -j4 -l4

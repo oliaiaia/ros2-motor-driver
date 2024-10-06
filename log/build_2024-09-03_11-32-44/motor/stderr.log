@@ -1,0 +1,15 @@
+[01m[K/home/olia/ros2_ws/src/motor/src/multi_line.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/olia/ros2_ws/src/motor/src/multi_line.cpp:19:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kreq[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   19 |     int [01;35m[Kreq[m[K, value;
+      |         [01;35m[K^~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/multi_line.cpp:13:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   13 | int main([01;35m[Kint argc[m[K, char * argv[]) {
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/multi_line.cpp:13:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   13 | int main(int argc, [01;35m[Kchar * argv[][m[K) {
+      |                    [01;35m[K~~~~~~~^~~~~~[m[K
+/usr/bin/ld: cannot open output file motor: Permission denied
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/motor.dir/build.make:172: motor] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/motor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

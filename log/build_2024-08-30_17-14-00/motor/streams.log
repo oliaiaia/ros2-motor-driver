@@ -1,0 +1,18 @@
+[0.058s] Invoking command in '/home/olia/ros2_ws/src/motor/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/ros2_ws/src/motor/build/motor -- -j4 -l4
+[0.415s] [ 50%] [32mBuilding CXX object CMakeFiles/motor.dir/src/driver.cpp.o[0m
+[11.412s] [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[11.412s] [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:83:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kgpiod_chip_get_line[m[K’ was not declared in this scope; did you mean ‘[01m[Kgpiod_chip_get_info[m[K’?
+[11.413s]    83 |     line = [01;31m[Kgpiod_chip_get_line[m[K(chip, 21);
+[11.413s]       |            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[11.414s]       |            [32m[Kgpiod_chip_get_info[m[K
+[11.434s] [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:88:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kgpiod_line_get_value[m[K’ was not declared in this scope; did you mean ‘[01m[Kgpiod_line_value[m[K’?
+[11.435s]    88 |     value = [01;31m[Kgpiod_line_get_value[m[K(line);
+[11.436s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.436s]       |             [32m[Kgpiod_line_value[m[K
+[11.437s] [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:78:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[11.437s]    78 |     int [01;35m[Kreq[m[K, value;
+[11.437s]       |         [01;35m[K^~~[m[K
+[15.889s] gmake[2]: *** [CMakeFiles/motor.dir/build.make:76: CMakeFiles/motor.dir/src/driver.cpp.o] Error 1
+[15.890s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor.dir/all] Error 2
+[15.891s] gmake: *** [Makefile:146: all] Error 2
+[15.899s] Invoked command in '/home/olia/ros2_ws/src/motor/build/motor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/ros2_ws/src/motor/build/motor -- -j4 -l4

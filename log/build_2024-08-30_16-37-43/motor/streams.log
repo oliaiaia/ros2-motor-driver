@@ -1,0 +1,19 @@
+[0.061s] Invoking command in '/home/olia/ros2_ws/src/motor/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/ros2_ws/src/motor/build/motor -- -j4 -l4
+[0.430s] [ 50%] [32mBuilding CXX object CMakeFiles/motor.dir/src/driver.cpp.o[0m
+[11.380s] [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[11.381s] [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:83:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kgpiod_chip_get_line[m[K’ was not declared in this scope; did you mean ‘[01m[Kgpiod_chip_get_info[m[K’?
+[11.382s]    83 |     line = [01;31m[Kgpiod_chip_get_line[m[K(chip, 21);
+[11.382s]       |            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[11.383s]       |            [32m[Kgpiod_chip_get_info[m[K
+[11.408s] [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:88:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kgpiod_line_request_input[m[K’ was not declared in this scope; did you mean ‘[01m[Kgpiod_line_request_get_fd[m[K’?
+[11.409s]    88 |     req = [01;31m[Kgpiod_line_request_input[m[K(line, "gpio_state");
+[11.409s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.410s]       |           [32m[Kgpiod_line_request_get_fd[m[K
+[11.431s] [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:93:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kgpiod_line_get_value[m[K’ was not declared in this scope; did you mean ‘[01m[Kgpiod_line_value[m[K’?
+[11.431s]    93 |     value = [01;31m[Kgpiod_line_get_value[m[K(line);
+[11.432s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.432s]       |             [32m[Kgpiod_line_value[m[K
+[15.907s] gmake[2]: *** [CMakeFiles/motor.dir/build.make:76: CMakeFiles/motor.dir/src/driver.cpp.o] Error 1
+[15.908s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor.dir/all] Error 2
+[15.908s] gmake: *** [Makefile:146: all] Error 2
+[15.917s] Invoked command in '/home/olia/ros2_ws/src/motor/build/motor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/ros2_ws/src/motor/build/motor -- -j4 -l4

@@ -1,0 +1,25 @@
+[0.057s] Invoking command in '/home/olia/ros2_ws/src/motor/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/ros2_ws/src/motor/build/motor -- -j4 -l4
+[0.451s] [ 50%] [32mBuilding CXX object CMakeFiles/motor.dir/src/driver.cpp.o[0m
+[22.012s] [ 50%] [32m[1mLinking CXX executable motor[0m
+[24.600s] [ 50%] Built target motor
+[24.663s] Invoked command in '/home/olia/ros2_ws/src/motor/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/ros2_ws/src/motor/build/motor -- -j4 -l4
+[24.916s] Invoking command in '/home/olia/ros2_ws/src/motor/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/olia/ros2_ws/src/motor/build/motor
+[24.969s] -- Install configuration: ""
+[24.970s] -- Installing: /home/olia/ros2_ws/src/motor/install/motor/lib/motor/motor
+[24.981s] -- Set non-toolchain portion of runtime path of "/home/olia/ros2_ws/src/motor/install/motor/lib/motor/motor" to ""
+[24.982s] -- Up-to-date: /home/olia/ros2_ws/src/motor/install/motor/share/ament_index/resource_index/package_run_dependencies/motor
+[24.983s] -- Installing: /home/olia/ros2_ws/src/motor/install/motor/share/ament_index/resource_index/parent_prefix_path/motor
+[24.985s] -- Up-to-date: /home/olia/ros2_ws/src/motor/install/motor/share/motor/environment/ament_prefix_path.sh
+[24.986s] -- Up-to-date: /home/olia/ros2_ws/src/motor/install/motor/share/motor/environment/ament_prefix_path.dsv
+[24.986s] -- Up-to-date: /home/olia/ros2_ws/src/motor/install/motor/share/motor/environment/path.sh
+[24.987s] -- Up-to-date: /home/olia/ros2_ws/src/motor/install/motor/share/motor/environment/path.dsv
+[24.988s] -- Up-to-date: /home/olia/ros2_ws/src/motor/install/motor/share/motor/local_setup.bash
+[24.988s] -- Up-to-date: /home/olia/ros2_ws/src/motor/install/motor/share/motor/local_setup.sh
+[24.989s] -- Up-to-date: /home/olia/ros2_ws/src/motor/install/motor/share/motor/local_setup.zsh
+[24.989s] -- Up-to-date: /home/olia/ros2_ws/src/motor/install/motor/share/motor/local_setup.dsv
+[24.989s] -- Installing: /home/olia/ros2_ws/src/motor/install/motor/share/motor/package.dsv
+[24.991s] -- Up-to-date: /home/olia/ros2_ws/src/motor/install/motor/share/ament_index/resource_index/packages/motor
+[24.991s] -- Up-to-date: /home/olia/ros2_ws/src/motor/install/motor/share/motor/cmake/motorConfig.cmake
+[24.992s] -- Up-to-date: /home/olia/ros2_ws/src/motor/install/motor/share/motor/cmake/motorConfig-version.cmake
+[24.992s] -- Up-to-date: /home/olia/ros2_ws/src/motor/install/motor/share/motor/package.xml
+[24.999s] Invoked command in '/home/olia/ros2_ws/src/motor/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/olia/ros2_ws/src/motor/build/motor

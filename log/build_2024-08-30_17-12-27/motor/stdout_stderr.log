@@ -1,0 +1,11 @@
+[ 50%] [32m[1mLinking CXX executable motor[0m
+/usr/bin/ld: CMakeFiles/motor.dir/src/driver.cpp.o: in function `main':
+driver.cpp:(.text+0x158): undefined reference to `gpiod_chip_open'
+/usr/bin/ld: driver.cpp:(.text+0x17c): undefined reference to `gpiod_chip_get_line'
+/usr/bin/ld: driver.cpp:(.text+0x194): undefined reference to `gpiod_chip_close'
+/usr/bin/ld: driver.cpp:(.text+0x1a4): undefined reference to `gpiod_line_get_value'
+/usr/bin/ld: driver.cpp:(.text+0x1c0): undefined reference to `gpiod_chip_close'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/motor.dir/build.make:171: motor] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

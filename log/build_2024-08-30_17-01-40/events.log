@@ -1,0 +1,193 @@
+[0.000000] (-) TimerEvent: {}
+[0.000935] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.001691] (motor) JobStarted: {'identifier': 'motor'}
+[0.043395] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[0.046411] (motor) JobProgress: {'identifier': 'motor', 'progress': 'build'}
+[0.049288] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/olia/ros2_ws/src/motor/build/motor', '--', '-j4', '-l4'], 'cwd': '/home/olia/ros2_ws/src/motor/build/motor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'olia', 'SSH_CLIENT': '192.168.0.163 58817 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/olia', 'OLDPWD': '/home/olia/ros2_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/olia/ros2_ws/src/motor/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'olia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/olia/ros2_ws/src/motor/install/motor:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/olia/ros2_ws/src/motor/build/motor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.163 58817 192.168.0.199 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/olia/ros2_ws/src/motor/install/motor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099287] (-) TimerEvent: {}
+[0.200134] (-) TimerEvent: {}
+[0.300837] (-) TimerEvent: {}
+[0.401493] (-) TimerEvent: {}
+[0.423538] (motor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motor.dir/src/driver.cpp.o\x1b[0m\n'}
+[0.501708] (-) TimerEvent: {}
+[0.602306] (-) TimerEvent: {}
+[0.702909] (-) TimerEvent: {}
+[0.803471] (-) TimerEvent: {}
+[0.904074] (-) TimerEvent: {}
+[1.004696] (-) TimerEvent: {}
+[1.105263] (-) TimerEvent: {}
+[1.205887] (-) TimerEvent: {}
+[1.306473] (-) TimerEvent: {}
+[1.407105] (-) TimerEvent: {}
+[1.507721] (-) TimerEvent: {}
+[1.608333] (-) TimerEvent: {}
+[1.708972] (-) TimerEvent: {}
+[1.809560] (-) TimerEvent: {}
+[1.910178] (-) TimerEvent: {}
+[2.010858] (-) TimerEvent: {}
+[2.111478] (-) TimerEvent: {}
+[2.212165] (-) TimerEvent: {}
+[2.312797] (-) TimerEvent: {}
+[2.413463] (-) TimerEvent: {}
+[2.514162] (-) TimerEvent: {}
+[2.614782] (-) TimerEvent: {}
+[2.715408] (-) TimerEvent: {}
+[2.816094] (-) TimerEvent: {}
+[2.916749] (-) TimerEvent: {}
+[3.017422] (-) TimerEvent: {}
+[3.118098] (-) TimerEvent: {}
+[3.218761] (-) TimerEvent: {}
+[3.319368] (-) TimerEvent: {}
+[3.420045] (-) TimerEvent: {}
+[3.520734] (-) TimerEvent: {}
+[3.621373] (-) TimerEvent: {}
+[3.722061] (-) TimerEvent: {}
+[3.822774] (-) TimerEvent: {}
+[3.923536] (-) TimerEvent: {}
+[4.024234] (-) TimerEvent: {}
+[4.125030] (-) TimerEvent: {}
+[4.225756] (-) TimerEvent: {}
+[4.326379] (-) TimerEvent: {}
+[4.427079] (-) TimerEvent: {}
+[4.527754] (-) TimerEvent: {}
+[4.628378] (-) TimerEvent: {}
+[4.729058] (-) TimerEvent: {}
+[4.829699] (-) TimerEvent: {}
+[4.930338] (-) TimerEvent: {}
+[5.031035] (-) TimerEvent: {}
+[5.131742] (-) TimerEvent: {}
+[5.232378] (-) TimerEvent: {}
+[5.333058] (-) TimerEvent: {}
+[5.433720] (-) TimerEvent: {}
+[5.534333] (-) TimerEvent: {}
+[5.634995] (-) TimerEvent: {}
+[5.735693] (-) TimerEvent: {}
+[5.836333] (-) TimerEvent: {}
+[5.937004] (-) TimerEvent: {}
+[6.037683] (-) TimerEvent: {}
+[6.138311] (-) TimerEvent: {}
+[6.238999] (-) TimerEvent: {}
+[6.339668] (-) TimerEvent: {}
+[6.440293] (-) TimerEvent: {}
+[6.540985] (-) TimerEvent: {}
+[6.641704] (-) TimerEvent: {}
+[6.742316] (-) TimerEvent: {}
+[6.842979] (-) TimerEvent: {}
+[6.943661] (-) TimerEvent: {}
+[7.044303] (-) TimerEvent: {}
+[7.144968] (-) TimerEvent: {}
+[7.245589] (-) TimerEvent: {}
+[7.346244] (-) TimerEvent: {}
+[7.446923] (-) TimerEvent: {}
+[7.547531] (-) TimerEvent: {}
+[7.648194] (-) TimerEvent: {}
+[7.748881] (-) TimerEvent: {}
+[7.849483] (-) TimerEvent: {}
+[7.950139] (-) TimerEvent: {}
+[8.050773] (-) TimerEvent: {}
+[8.151454] (-) TimerEvent: {}
+[8.252155] (-) TimerEvent: {}
+[8.352931] (-) TimerEvent: {}
+[8.453571] (-) TimerEvent: {}
+[8.554270] (-) TimerEvent: {}
+[8.655014] (-) TimerEvent: {}
+[8.755695] (-) TimerEvent: {}
+[8.856314] (-) TimerEvent: {}
+[8.957008] (-) TimerEvent: {}
+[9.057733] (-) TimerEvent: {}
+[9.158379] (-) TimerEvent: {}
+[9.259056] (-) TimerEvent: {}
+[9.359736] (-) TimerEvent: {}
+[9.460365] (-) TimerEvent: {}
+[9.561057] (-) TimerEvent: {}
+[9.661760] (-) TimerEvent: {}
+[9.762394] (-) TimerEvent: {}
+[9.863090] (-) TimerEvent: {}
+[9.963775] (-) TimerEvent: {}
+[10.064442] (-) TimerEvent: {}
+[10.165143] (-) TimerEvent: {}
+[10.265773] (-) TimerEvent: {}
+[10.366402] (-) TimerEvent: {}
+[10.467079] (-) TimerEvent: {}
+[10.567730] (-) TimerEvent: {}
+[10.668343] (-) TimerEvent: {}
+[10.769024] (-) TimerEvent: {}
+[10.869691] (-) TimerEvent: {}
+[10.970333] (-) TimerEvent: {}
+[11.071034] (-) TimerEvent: {}
+[11.171714] (-) TimerEvent: {}
+[11.272325] (-) TimerEvent: {}
+[11.367959] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/olia/ros2_ws/src/motor/src/driver.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.369005] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/olia/ros2_ws/src/motor/src/driver.cpp:83:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[11.369479] (motor) StderrLine: {'line': b'   83 |     line = gpiod_chip_get_line_offset_from_name(chip, \x1b[01;31m\x1b[K21\x1b[m\x1b[K);\n'}
+[11.370247] (motor) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.370876] (motor) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[11.371342] (motor) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.371763] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/olia/ros2_ws/src/motor/src/driver.cpp:5\x1b[m\x1b[K:\n'}
+[11.372147] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gpiod.h:275:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K gpiod_chip_get_line_offset_from_name\x1b[m\x1b[K(gpiod_chip*, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.372473] (-) TimerEvent: {}
+[11.372879] (motor) StderrLine: {'line': b'  275 |                                          \x1b[01;36m\x1b[Kconst char *name\x1b[m\x1b[K);\n'}
+[11.373560] (motor) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[11.373998] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/olia/ros2_ws/src/motor/src/driver.cpp:83:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kmain(int, char**)::gpiod_line*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[11.374346] (motor) StderrLine: {'line': b'   83 |     line = \x1b[01;31m\x1b[Kgpiod_chip_get_line_offset_from_name(chip, 21)\x1b[m\x1b[K;\n'}
+[11.374736] (motor) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.375127] (motor) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[11.375459] (motor) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.375907] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/olia/ros2_ws/src/motor/src/driver.cpp:88:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid cast from type \xe2\x80\x98\x1b[01m\x1b[Kmain(int, char**)::gpiod_line*\x1b[m\x1b[K\xe2\x80\x99 to type \xe2\x80\x98\x1b[01m\x1b[Kgpiod_line_value\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.376352] (motor) StderrLine: {'line': b'   88 |     value = \x1b[01;31m\x1b[Kgpiod_line_value(line)\x1b[m\x1b[K;\n'}
+[11.376777] (motor) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.377163] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/olia/ros2_ws/src/motor/src/driver.cpp:78:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[11.377494] (motor) StderrLine: {'line': b'   78 |     int \x1b[01;35m\x1b[Kreq\x1b[m\x1b[K, value;\n'}
+[11.377928] (motor) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.472749] (-) TimerEvent: {}
+[11.573374] (-) TimerEvent: {}
+[11.674038] (-) TimerEvent: {}
+[11.774692] (-) TimerEvent: {}
+[11.875303] (-) TimerEvent: {}
+[11.975995] (-) TimerEvent: {}
+[12.076666] (-) TimerEvent: {}
+[12.177312] (-) TimerEvent: {}
+[12.278003] (-) TimerEvent: {}
+[12.378680] (-) TimerEvent: {}
+[12.479312] (-) TimerEvent: {}
+[12.580006] (-) TimerEvent: {}
+[12.680687] (-) TimerEvent: {}
+[12.781342] (-) TimerEvent: {}
+[12.882015] (-) TimerEvent: {}
+[12.982680] (-) TimerEvent: {}
+[13.083310] (-) TimerEvent: {}
+[13.184010] (-) TimerEvent: {}
+[13.284665] (-) TimerEvent: {}
+[13.385289] (-) TimerEvent: {}
+[13.485954] (-) TimerEvent: {}
+[13.586594] (-) TimerEvent: {}
+[13.687284] (-) TimerEvent: {}
+[13.787970] (-) TimerEvent: {}
+[13.888593] (-) TimerEvent: {}
+[13.989283] (-) TimerEvent: {}
+[14.089984] (-) TimerEvent: {}
+[14.190702] (-) TimerEvent: {}
+[14.291338] (-) TimerEvent: {}
+[14.392035] (-) TimerEvent: {}
+[14.492754] (-) TimerEvent: {}
+[14.593400] (-) TimerEvent: {}
+[14.694074] (-) TimerEvent: {}
+[14.794740] (-) TimerEvent: {}
+[14.895362] (-) TimerEvent: {}
+[14.996051] (-) TimerEvent: {}
+[15.096723] (-) TimerEvent: {}
+[15.197348] (-) TimerEvent: {}
+[15.298011] (-) TimerEvent: {}
+[15.398598] (-) TimerEvent: {}
+[15.499233] (-) TimerEvent: {}
+[15.599901] (-) TimerEvent: {}
+[15.700522] (-) TimerEvent: {}
+[15.801262] (-) TimerEvent: {}
+[15.816271] (motor) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/motor.dir/build.make:76: CMakeFiles/motor.dir/src/driver.cpp.o] Error 1\n'}
+[15.817200] (motor) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor.dir/all] Error 2\n'}
+[15.818129] (motor) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.826099] (motor) CommandEnded: {'returncode': 2}
+[15.901476] (-) TimerEvent: {}
+[16.002752] (-) TimerEvent: {}
+[16.050401] (motor) JobEnded: {'identifier': 'motor', 'rc': 2}
+[16.061682] (-) EventReactorShutdown: {}

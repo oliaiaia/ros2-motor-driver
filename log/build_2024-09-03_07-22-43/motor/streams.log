@@ -1,0 +1,34 @@
+[0.058s] Invoking command in '/home/olia/ros2_ws/src/motor/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/ros2_ws/src/motor/build/motor -- -j4 -l4
+[0.251s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.510s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.782s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.853s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.932s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.025s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.418s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.435s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.850s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.227s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.756s] -- Configuring done (3.6s)
+[3.916s] -- Generating done (0.1s)
+[3.947s] -- Build files have been written to: /home/olia/ros2_ws/src/motor/build/motor
+[4.218s] [ 50%] [32m[1mLinking CXX executable motor[0m
+[5.037s] /usr/bin/ld: CMakeFiles/motor.dir/src/driver.cpp.o: in function `main':
+[5.038s] driver.cpp:(.text+0x134): undefined reference to `gpiod::chip::chip(std::filesystem::__cxx11::path const&)'
+[5.039s] /usr/bin/ld: driver.cpp:(.text+0x154): undefined reference to `gpiod::chip::get_line_info(gpiod::line::offset) const'
+[5.040s] /usr/bin/ld: driver.cpp:(.text+0x18c): undefined reference to `gpiod::line_info::offset() const'
+[5.042s] /usr/bin/ld: driver.cpp:(.text+0x1e4): undefined reference to `gpiod::line_info::name[abi:cxx11]() const'
+[5.042s] /usr/bin/ld: driver.cpp:(.text+0x244): undefined reference to `gpiod::line_info::name[abi:cxx11]() const'
+[5.043s] /usr/bin/ld: driver.cpp:(.text+0x294): undefined reference to `gpiod::line_info::consumer[abi:cxx11]() const'
+[5.043s] /usr/bin/ld: driver.cpp:(.text+0x2f4): undefined reference to `gpiod::line_info::consumer[abi:cxx11]() const'
+[5.043s] /usr/bin/ld: driver.cpp:(.text+0x33c): undefined reference to `gpiod::line_info::direction() const'
+[5.044s] /usr/bin/ld: driver.cpp:(.text+0x39c): undefined reference to `gpiod::line_info::active_low() const'
+[5.044s] /usr/bin/ld: driver.cpp:(.text+0x4c4): undefined reference to `gpiod::line_info::~line_info()'
+[5.044s] /usr/bin/ld: driver.cpp:(.text+0x4cc): undefined reference to `gpiod::chip::~chip()'
+[5.045s] /usr/bin/ld: driver.cpp:(.text+0x5f8): undefined reference to `gpiod::line_info::~line_info()'
+[5.045s] /usr/bin/ld: driver.cpp:(.text+0x608): undefined reference to `gpiod::chip::~chip()'
+[5.111s] collect2: error: ld returned 1 exit status
+[5.117s] gmake[2]: *** [CMakeFiles/motor.dir/build.make:171: motor] Error 1
+[5.118s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor.dir/all] Error 2
+[5.120s] gmake: *** [Makefile:146: all] Error 2
+[5.129s] Invoked command in '/home/olia/ros2_ws/src/motor/build/motor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/ros2_ws/src/motor/build/motor -- -j4 -l4

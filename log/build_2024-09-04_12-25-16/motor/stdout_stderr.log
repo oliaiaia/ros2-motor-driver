@@ -1,0 +1,97 @@
+[ 50%] Built target lines
+[ 75%] [32mBuilding CXX object CMakeFiles/motor.dir/src/driver.cpp.o[0m
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:44:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   44 |    }
+      |     [01;31m[K^[m[K
+      |     [32m[K;[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:[m[K In constructor ‘[01m[KMotor::[01;32m[KMotor[m[K()[m[K’:
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:25:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+   25 |       [01;31m[Kmotor_publisher_[m[K = this->create_publisher<std_msgs::msg::String>("motor", 10);
+      |       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |       [32m[Kcount_publishers[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:26:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   26 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(500ms, std::bind(&Motor::timer_callback, this));
+      |       [01;31m[K^~~~~~[m[K
+      |       [32m[Ktimer_t[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:26:65:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KMotor[m[K’
+   26 |       timer_ = this->create_wall_timer(500ms, std::bind(&Motor::[01;31m[Ktimer_callback[m[K, this));
+      |                                                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:40:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Motor[m[K’ has no member named ‘[01m[Kmotor_publisher_[m[K’; did you mean ‘[01m[Kcount_publishers[m[K’?
+   40 |     this->[01;31m[Kmotor_publisher_[m[K->publish(motor_message);
+      |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |           [32m[Kcount_publishers[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:40:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_message[m[K’ was not declared in this scope; did you mean ‘[01m[Kmotor_messsage[m[K’?
+   40 |     this->motor_publisher_->publish([01;31m[Kmotor_message[m[K);
+      |                                     [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                     [32m[Kmotor_messsage[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:41:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Motor[m[K’ has no member named ‘[01m[Kmotor_publisher_[m[K’; did you mean ‘[01m[Kcount_publishers[m[K’?
+   41 |       this->[01;31m[Kmotor_publisher_[m[K->publish(motor_message);
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |             [32m[Kcount_publishers[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:12[m[K:
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K setup_pin[m[K()[m[K’:
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:51:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   51 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "'%s'", message.data.c_str());
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:51:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:51:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   51 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "'%s'", message.data.c_str());
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:51:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   51 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "'%s'", message.data.c_str());
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:51:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   51 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "'%s'", message.data.c_str());
+      |       [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:51:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   51 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "'%s'", message.data.c_str());
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:51:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   51 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "'%s'", message.data.c_str());
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:52:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_publisher_[m[K’ was not declared in this scope
+   52 |       [01;31m[Kmotor_publisher_[m[K->publish(message);
+      |       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K go[m[K()[m[K’:
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:59:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   59 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "'%s'", message.data.c_str());
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:59:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:59:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   59 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "'%s'", message.data.c_str());
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:59:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   59 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "'%s'", message.data.c_str());
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:59:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   59 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "'%s'", message.data.c_str());
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:59:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   59 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "'%s'", message.data.c_str());
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:59:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   59 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "'%s'", message.data.c_str());
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:60:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_publisher_[m[K’ was not declared in this scope
+   60 |       [01;31m[Kmotor_publisher_[m[K->publish(message);
+      |       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:[m[K At global scope:
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:65:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   65 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:85:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   85 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:91:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Motor[m[K’ has no member named ‘[01m[Ksetup_pin[m[K’
+   91 |   motor.[01;31m[Ksetup_pin[m[K();
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:92:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Motor[m[K’ has no member named ‘[01m[Kgo[m[K’
+   92 |   motor.[01;31m[Kgo[m[K();
+      |         [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/motor.dir/build.make:76: CMakeFiles/motor.dir/src/driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/motor.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,206 @@
+[0.000000] (-) TimerEvent: {}
+[0.001488] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.002484] (motor) JobStarted: {'identifier': 'motor'}
+[0.067413] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[0.068286] (motor) Command: {'cmd': ['/usr/bin/cmake', '/home/olia/ros2_ws/src/motor', '-DCMAKE_INSTALL_PREFIX=/home/olia/ros2_ws/src/motor/install/motor'], 'cwd': '/home/olia/ros2_ws/src/motor/build/motor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'olia', 'SSH_CLIENT': '192.168.0.163 58817 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/olia', 'OLDPWD': '/home/olia/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'olia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/olia/ros2_ws/src/motor/build/motor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.163 58817 192.168.0.199 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099131] (-) TimerEvent: {}
+[0.199907] (-) TimerEvent: {}
+[0.300711] (-) TimerEvent: {}
+[0.401660] (-) TimerEvent: {}
+[0.502565] (-) TimerEvent: {}
+[0.603387] (-) TimerEvent: {}
+[0.704359] (-) TimerEvent: {}
+[0.805452] (-) TimerEvent: {}
+[0.906627] (-) TimerEvent: {}
+[1.007660] (-) TimerEvent: {}
+[1.108661] (-) TimerEvent: {}
+[1.209709] (-) TimerEvent: {}
+[1.310851] (-) TimerEvent: {}
+[1.411973] (-) TimerEvent: {}
+[1.513111] (-) TimerEvent: {}
+[1.614227] (-) TimerEvent: {}
+[1.715135] (-) TimerEvent: {}
+[1.815898] (-) TimerEvent: {}
+[1.916924] (-) TimerEvent: {}
+[2.017889] (-) TimerEvent: {}
+[2.118659] (-) TimerEvent: {}
+[2.219646] (-) TimerEvent: {}
+[2.285366] (motor) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[2.319800] (-) TimerEvent: {}
+[2.420563] (-) TimerEvent: {}
+[2.521695] (-) TimerEvent: {}
+[2.622567] (-) TimerEvent: {}
+[2.723630] (-) TimerEvent: {}
+[2.824706] (-) TimerEvent: {}
+[2.925858] (-) TimerEvent: {}
+[3.026904] (-) TimerEvent: {}
+[3.127893] (-) TimerEvent: {}
+[3.228890] (-) TimerEvent: {}
+[3.329921] (-) TimerEvent: {}
+[3.430972] (-) TimerEvent: {}
+[3.531920] (-) TimerEvent: {}
+[3.632782] (-) TimerEvent: {}
+[3.733713] (-) TimerEvent: {}
+[3.834647] (-) TimerEvent: {}
+[3.935388] (-) TimerEvent: {}
+[3.988373] (motor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[4.035573] (-) TimerEvent: {}
+[4.106351] (motor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.135767] (-) TimerEvent: {}
+[4.236537] (-) TimerEvent: {}
+[4.337281] (-) TimerEvent: {}
+[4.438196] (-) TimerEvent: {}
+[4.538874] (-) TimerEvent: {}
+[4.639554] (-) TimerEvent: {}
+[4.714561] (motor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.739718] (-) TimerEvent: {}
+[4.750256] (motor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.752568] (motor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.754920] (motor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.816444] (motor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.839913] (-) TimerEvent: {}
+[4.940684] (-) TimerEvent: {}
+[5.041447] (-) TimerEvent: {}
+[5.142212] (-) TimerEvent: {}
+[5.242862] (-) TimerEvent: {}
+[5.343610] (-) TimerEvent: {}
+[5.399891] (motor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.436007] (motor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.437120] (motor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.438924] (motor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.443754] (-) TimerEvent: {}
+[5.544480] (-) TimerEvent: {}
+[5.553673] (motor) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[5.644639] (-) TimerEvent: {}
+[5.745303] (-) TimerEvent: {}
+[5.845981] (-) TimerEvent: {}
+[5.946582] (-) TimerEvent: {}
+[6.047144] (-) TimerEvent: {}
+[6.147755] (-) TimerEvent: {}
+[6.248542] (-) TimerEvent: {}
+[6.349338] (-) TimerEvent: {}
+[6.450132] (-) TimerEvent: {}
+[6.550860] (-) TimerEvent: {}
+[6.583971] (motor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[6.651132] (-) TimerEvent: {}
+[6.751825] (-) TimerEvent: {}
+[6.852437] (-) TimerEvent: {}
+[6.953299] (-) TimerEvent: {}
+[7.054464] (-) TimerEvent: {}
+[7.155083] (-) TimerEvent: {}
+[7.255689] (-) TimerEvent: {}
+[7.356312] (-) TimerEvent: {}
+[7.456879] (-) TimerEvent: {}
+[7.557482] (-) TimerEvent: {}
+[7.658093] (-) TimerEvent: {}
+[7.758676] (-) TimerEvent: {}
+[7.859352] (-) TimerEvent: {}
+[7.886597] (motor) StdoutLine: {'line': b'-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[7.959518] (-) TimerEvent: {}
+[8.060140] (-) TimerEvent: {}
+[8.160718] (-) TimerEvent: {}
+[8.261334] (-) TimerEvent: {}
+[8.361922] (-) TimerEvent: {}
+[8.462619] (-) TimerEvent: {}
+[8.563526] (-) TimerEvent: {}
+[8.664126] (-) TimerEvent: {}
+[8.668367] (motor) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[8.764308] (-) TimerEvent: {}
+[8.864943] (-) TimerEvent: {}
+[8.905470] (motor) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[8.965140] (-) TimerEvent: {}
+[9.065767] (-) TimerEvent: {}
+[9.154509] (motor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.165908] (-) TimerEvent: {}
+[9.266552] (-) TimerEvent: {}
+[9.367152] (-) TimerEvent: {}
+[9.414381] (motor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.467309] (-) TimerEvent: {}
+[9.567895] (-) TimerEvent: {}
+[9.668516] (-) TimerEvent: {}
+[9.769168] (-) TimerEvent: {}
+[9.869849] (-) TimerEvent: {}
+[9.970488] (-) TimerEvent: {}
+[10.071153] (-) TimerEvent: {}
+[10.171894] (-) TimerEvent: {}
+[10.272531] (-) TimerEvent: {}
+[10.361985] (motor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[10.372692] (-) TimerEvent: {}
+[10.431261] (motor) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.472852] (-) TimerEvent: {}
+[10.573465] (-) TimerEvent: {}
+[10.674134] (-) TimerEvent: {}
+[10.774710] (-) TimerEvent: {}
+[10.875412] (-) TimerEvent: {}
+[10.976160] (-) TimerEvent: {}
+[11.076900] (-) TimerEvent: {}
+[11.177678] (-) TimerEvent: {}
+[11.278502] (-) TimerEvent: {}
+[11.318817] (motor) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[11.378688] (-) TimerEvent: {}
+[11.450109] (motor) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[11.478859] (-) TimerEvent: {}
+[11.550588] (motor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.579010] (-) TimerEvent: {}
+[11.679633] (-) TimerEvent: {}
+[11.780225] (-) TimerEvent: {}
+[11.880931] (-) TimerEvent: {}
+[11.981589] (-) TimerEvent: {}
+[12.082143] (-) TimerEvent: {}
+[12.182709] (-) TimerEvent: {}
+[12.283302] (-) TimerEvent: {}
+[12.316159] (motor) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[12.383447] (-) TimerEvent: {}
+[12.483999] (-) TimerEvent: {}
+[12.584631] (-) TimerEvent: {}
+[12.685405] (-) TimerEvent: {}
+[12.786266] (-) TimerEvent: {}
+[12.886863] (-) TimerEvent: {}
+[12.987486] (-) TimerEvent: {}
+[13.088099] (-) TimerEvent: {}
+[13.188698] (-) TimerEvent: {}
+[13.243697] (motor) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.244529] (motor) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[13.244905] (motor) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.267302] (motor) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.288848] (-) TimerEvent: {}
+[13.323526] (motor) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[13.324167] (motor) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[13.335044] (motor) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.355324] (motor) StdoutLine: {'line': b'-- Configuring done (12.9s)\n'}
+[13.389067] (-) TimerEvent: {}
+[13.396207] (motor) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[13.402723] (motor) StdoutLine: {'line': b'-- Build files have been written to: /home/olia/ros2_ws/src/motor/build/motor\n'}
+[13.442730] (motor) CommandEnded: {'returncode': 0}
+[13.459997] (motor) JobProgress: {'identifier': 'motor', 'progress': 'build'}
+[13.460207] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/olia/ros2_ws/src/motor/build/motor', '--', '-j4', '-l4'], 'cwd': '/home/olia/ros2_ws/src/motor/build/motor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'olia', 'SSH_CLIENT': '192.168.0.163 58817 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/olia', 'OLDPWD': '/home/olia/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'olia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/olia/ros2_ws/src/motor/build/motor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.163 58817 192.168.0.199 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[13.489194] (-) TimerEvent: {}
+[13.589832] (-) TimerEvent: {}
+[13.690515] (-) TimerEvent: {}
+[13.701941] (motor) CommandEnded: {'returncode': 0}
+[13.790752] (-) TimerEvent: {}
+[13.859056] (motor) JobProgress: {'identifier': 'motor', 'progress': 'install'}
+[13.890934] (-) TimerEvent: {}
+[13.917234] (motor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/olia/ros2_ws/src/motor/build/motor'], 'cwd': '/home/olia/ros2_ws/src/motor/build/motor', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'olia', 'SSH_CLIENT': '192.168.0.163 58817 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/olia', 'OLDPWD': '/home/olia/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'olia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/olia/ros2_ws/src/motor/build/motor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.163 58817 192.168.0.199 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[13.970634] (motor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.971678] (motor) StdoutLine: {'line': b'-- Installing: /home/olia/ros2_ws/src/motor/install/motor/share/ament_index/resource_index/package_run_dependencies/motor\n'}
+[13.973376] (motor) StdoutLine: {'line': b'-- Installing: /home/olia/ros2_ws/src/motor/install/motor/share/ament_index/resource_index/parent_prefix_path/motor\n'}
+[13.974950] (motor) StdoutLine: {'line': b'-- Installing: /home/olia/ros2_ws/src/motor/install/motor/share/motor/environment/ament_prefix_path.sh\n'}
+[13.976055] (motor) StdoutLine: {'line': b'-- Installing: /home/olia/ros2_ws/src/motor/install/motor/share/motor/environment/ament_prefix_path.dsv\n'}
+[13.977147] (motor) StdoutLine: {'line': b'-- Installing: /home/olia/ros2_ws/src/motor/install/motor/share/motor/environment/path.sh\n'}
+[13.978230] (motor) StdoutLine: {'line': b'-- Installing: /home/olia/ros2_ws/src/motor/install/motor/share/motor/environment/path.dsv\n'}
+[13.979201] (motor) StdoutLine: {'line': b'-- Installing: /home/olia/ros2_ws/src/motor/install/motor/share/motor/local_setup.bash\n'}
+[13.980161] (motor) StdoutLine: {'line': b'-- Installing: /home/olia/ros2_ws/src/motor/install/motor/share/motor/local_setup.sh\n'}
+[13.981233] (motor) StdoutLine: {'line': b'-- Installing: /home/olia/ros2_ws/src/motor/install/motor/share/motor/local_setup.zsh\n'}
+[13.982226] (motor) StdoutLine: {'line': b'-- Installing: /home/olia/ros2_ws/src/motor/install/motor/share/motor/local_setup.dsv\n'}
+[13.983234] (motor) StdoutLine: {'line': b'-- Installing: /home/olia/ros2_ws/src/motor/install/motor/share/motor/package.dsv\n'}
+[13.984597] (motor) StdoutLine: {'line': b'-- Installing: /home/olia/ros2_ws/src/motor/install/motor/share/ament_index/resource_index/packages/motor\n'}
+[13.986002] (motor) StdoutLine: {'line': b'-- Installing: /home/olia/ros2_ws/src/motor/install/motor/share/motor/cmake/motorConfig.cmake\n'}
+[13.986855] (motor) StdoutLine: {'line': b'-- Installing: /home/olia/ros2_ws/src/motor/install/motor/share/motor/cmake/motorConfig-version.cmake\n'}
+[13.987929] (motor) StdoutLine: {'line': b'-- Installing: /home/olia/ros2_ws/src/motor/install/motor/share/motor/package.xml\n'}
+[13.991155] (-) TimerEvent: {}
+[13.994514] (motor) CommandEnded: {'returncode': 0}
+[14.091332] (-) TimerEvent: {}
+[14.191980] (-) TimerEvent: {}
+[14.242859] (motor) JobEnded: {'identifier': 'motor', 'rc': 0}
+[14.245460] (-) EventReactorShutdown: {}

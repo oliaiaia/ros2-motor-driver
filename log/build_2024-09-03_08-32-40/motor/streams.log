@@ -1,0 +1,28 @@
+[0.038s] Invoking command in '/home/olia/ros2_ws/src/motor/build/motor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/ros2_ws/src/motor/build/motor -- -j4 -l4
+[0.290s] [ 50%] [32mBuilding CXX object CMakeFiles/motor.dir/src/driver.cpp.o[0m
+[13.965s] [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[13.965s] [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:91:50:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kgpiod_line*[m[K’ to ‘[01m[Kmain(int, char**)::gpio_line*[m[K’ in initialization
+[13.966s]    91 |     struct gpio_line *line2 = [01;31m[Kgpiod_chip_get_line(chip, 20)[m[K;
+[13.966s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[13.967s]       |                                                  [01;31m[K|[m[K
+[13.967s]       |                                                  [01;31m[Kgpiod_line*[m[K
+[13.967s] In file included from [01m[K/usr/include/gpiod.hpp:13[m[K,
+[13.968s]                  from [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:5[m[K:
+[13.968s] [01m[K/usr/include/gpiod.h:47:8:[m[K [01;36m[Knote: [m[Kclass type ‘[01m[Kgpiod_line[m[K’ is incomplete
+[13.968s]    47 | struct [01;36m[Kgpiod_line[m[K;
+[13.969s]       |        [01;36m[K^~~~~~~~~~[m[K
+[13.969s] [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:99:31:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kmain(int, char**)::gpio_line*[m[K’ to ‘[01m[Kgpiod_line*[m[K’
+[13.969s]    99 |     gpiod_line_request_output([01;31m[Kline2[m[K, "example", 0);
+[13.970s]       |                               [01;31m[K^~~~~[m[K
+[13.970s]       |                               [01;31m[K|[m[K
+[13.971s]       |                               [01;31m[Kmain(int, char**)::gpio_line*[m[K
+[13.971s] [01m[K/usr/include/gpiod.h:1049:50:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint[01;32m[K gpiod_line_request_output[m[K(gpiod_line*, const char*, int)[m[K’
+[13.971s]  1049 | int gpiod_line_request_output([01;36m[Kstruct gpiod_line *line[m[K,
+[13.972s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[13.972s] [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:91:12:[m[K [01;36m[Knote: [m[Kclass type ‘[01m[Kmain(int, char**)::gpio_line[m[K’ is incomplete
+[13.972s]    91 |     struct [01;36m[Kgpio_line[m[K *line2 = gpiod_chip_get_line(chip, 20);
+[13.973s]       |            [01;36m[K^~~~~~~~~[m[K
+[18.601s] gmake[2]: *** [CMakeFiles/motor.dir/build.make:76: CMakeFiles/motor.dir/src/driver.cpp.o] Error 1
+[18.602s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor.dir/all] Error 2
+[18.604s] gmake: *** [Makefile:146: all] Error 2
+[18.613s] Invoked command in '/home/olia/ros2_ws/src/motor/build/motor' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/ros2_ws/src/motor/build/motor -- -j4 -l4

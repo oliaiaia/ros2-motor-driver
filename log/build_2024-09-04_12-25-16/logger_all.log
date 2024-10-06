@@ -1,0 +1,83 @@
+[0.426s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.426s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff979dde20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff97b63830>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff97b63830>>, mixin_verb=('build',))
+[0.571s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.573s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/olia/ros2_ws/src/motor'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.685s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'motor'
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_args' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_target' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_clean_first' from command line to 'False'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_force_configure' from command line to 'False'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'ament_cmake_args' from command line to 'None'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.759s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.759s] DEBUG:colcon.colcon_core.verb:Building package 'motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olia/ros2_ws/src/motor/build/motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olia/ros2_ws/src/motor/install/motor', 'merge_install': False, 'path': '/home/olia/ros2_ws/src/motor', 'symlink_install': False, 'test_result_base': None}
+[0.760s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.762s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.763s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/olia/ros2_ws/src/motor' with build type 'ament_cmake'
+[0.764s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/olia/ros2_ws/src/motor'
+[0.772s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.773s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.773s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/olia/ros2_ws/src/motor/build/motor': /usr/bin/cmake --build /home/olia/ros2_ws/src/motor/build/motor -- -j4 -l4
+[16.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/olia/ros2_ws/src/motor/build/motor' returned '2': /usr/bin/cmake --build /home/olia/ros2_ws/src/motor/build/motor -- -j4 -l4
+[16.575s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor)
+[16.586s] Level 1:colcon.colcon_core.environment:checking '/home/olia/ros2_ws/src/motor/install/motor' for CMake module files
+[16.590s] Level 1:colcon.colcon_core.environment:checking '/home/olia/ros2_ws/src/motor/install/motor' for CMake config files
+[16.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'cmake_prefix_path')
+[16.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olia/ros2_ws/src/motor/install/motor/share/motor/hook/cmake_prefix_path.ps1'
+[16.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/olia/ros2_ws/src/motor/install/motor/share/motor/hook/cmake_prefix_path.dsv'
+[16.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/olia/ros2_ws/src/motor/install/motor/share/motor/hook/cmake_prefix_path.sh'
+[16.606s] Level 1:colcon.colcon_core.environment:checking '/home/olia/ros2_ws/src/motor/install/motor/lib'
+[16.607s] Level 1:colcon.colcon_core.environment:checking '/home/olia/ros2_ws/src/motor/install/motor/bin'
+[16.608s] Level 1:colcon.colcon_core.environment:checking '/home/olia/ros2_ws/src/motor/install/motor/lib/pkgconfig/motor.pc'
+[16.617s] Level 1:colcon.colcon_core.environment:checking '/home/olia/ros2_ws/src/motor/install/motor/lib/python3.12/site-packages'
+[16.618s] Level 1:colcon.colcon_core.environment:checking '/home/olia/ros2_ws/src/motor/install/motor/bin'
+[16.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/olia/ros2_ws/src/motor/install/motor/share/motor/package.ps1'
+[16.621s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/olia/ros2_ws/src/motor/install/motor/share/motor/package.dsv'
+[16.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/olia/ros2_ws/src/motor/install/motor/share/motor/package.sh'
+[16.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/olia/ros2_ws/src/motor/install/motor/share/motor/package.bash'
+[16.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/olia/ros2_ws/src/motor/install/motor/share/motor/package.zsh'
+[16.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/olia/ros2_ws/src/motor/install/motor/share/colcon-core/packages/motor)
+[16.648s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.649s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.649s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[16.650s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.673s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.674s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.674s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.674s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[16.674s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.675s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olia/ros2_ws/src/motor/install/local_setup.ps1'
+[16.678s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/olia/ros2_ws/src/motor/install/_local_setup_util_ps1.py'
+[16.682s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olia/ros2_ws/src/motor/install/setup.ps1'
+[16.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olia/ros2_ws/src/motor/install/local_setup.sh'
+[16.692s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/olia/ros2_ws/src/motor/install/_local_setup_util_sh.py'
+[16.697s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olia/ros2_ws/src/motor/install/setup.sh'
+[16.703s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olia/ros2_ws/src/motor/install/local_setup.bash'
+[16.706s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olia/ros2_ws/src/motor/install/setup.bash'
+[16.709s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/olia/ros2_ws/src/motor/install/local_setup.zsh'
+[16.714s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/olia/ros2_ws/src/motor/install/setup.zsh'

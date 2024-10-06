@@ -1,0 +1,27 @@
+[0.056s] Invoking command in '/home/olia/ros2_ws/src/motor/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/ros2_ws/src/motor/build/motor -- -j4 -l4
+[0.423s] [ 50%] [32mBuilding CXX object CMakeFiles/motor.dir/src/driver.cpp.o[0m
+[11.367s] [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[11.367s] [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:83:55:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K-fpermissive[m[K]
+[11.368s]    83 |     line = gpiod_chip_get_line_offset_from_name(chip, [01;31m[K21[m[K);
+[11.369s]       |                                                       [01;31m[K^~[m[K
+[11.369s]       |                                                       [01;31m[K|[m[K
+[11.369s]       |                                                       [01;31m[Kint[m[K
+[11.370s] In file included from [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:5[m[K:
+[11.370s] [01m[K/usr/include/gpiod.h:275:54:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kint[01;32m[K gpiod_chip_get_line_offset_from_name[m[K(gpiod_chip*, const char*)[m[K’
+[11.371s]   275 |                                          [01;36m[Kconst char *name[m[K);
+[11.372s]       |                                          [01;36m[K~~~~~~~~~~~~^~~~[m[K
+[11.372s] [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:83:48:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kmain(int, char**)::gpiod_line*[m[K’ [[01;31m[K-fpermissive[m[K]
+[11.372s]    83 |     line = [01;31m[Kgpiod_chip_get_line_offset_from_name(chip, 21)[m[K;
+[11.373s]       |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[11.373s]       |                                                [01;31m[K|[m[K
+[11.374s]       |                                                [01;31m[Kint[m[K
+[11.374s] [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:88:13:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[Kmain(int, char**)::gpiod_line*[m[K’ to type ‘[01m[Kgpiod_line_value[m[K’
+[11.375s]    88 |     value = [01;31m[Kgpiod_line_value(line)[m[K;
+[11.375s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.375s] [01m[K/home/olia/ros2_ws/src/motor/src/driver.cpp:78:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[11.376s]    78 |     int [01;35m[Kreq[m[K, value;
+[11.376s]       |         [01;35m[K^~~[m[K
+[15.815s] gmake[2]: *** [CMakeFiles/motor.dir/build.make:76: CMakeFiles/motor.dir/src/driver.cpp.o] Error 1
+[15.815s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motor.dir/all] Error 2
+[15.816s] gmake: *** [Makefile:146: all] Error 2
+[15.825s] Invoked command in '/home/olia/ros2_ws/src/motor/build/motor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/ros2_ws/src/motor/build/motor -- -j4 -l4

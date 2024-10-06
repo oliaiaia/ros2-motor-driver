@@ -1,0 +1,17 @@
+/home/olia/ros2_ws/src/motor/install/motor/lib/motor/motor
+/home/olia/ros2_ws/src/motor/install/motor/lib/motor/lines
+/home/olia/ros2_ws/src/motor/install/motor/share/ament_index/resource_index/package_run_dependencies/motor
+/home/olia/ros2_ws/src/motor/install/motor/share/ament_index/resource_index/parent_prefix_path/motor
+/home/olia/ros2_ws/src/motor/install/motor/share/motor/environment/ament_prefix_path.sh
+/home/olia/ros2_ws/src/motor/install/motor/share/motor/environment/ament_prefix_path.dsv
+/home/olia/ros2_ws/src/motor/install/motor/share/motor/environment/path.sh
+/home/olia/ros2_ws/src/motor/install/motor/share/motor/environment/path.dsv
+/home/olia/ros2_ws/src/motor/install/motor/share/motor/local_setup.bash
+/home/olia/ros2_ws/src/motor/install/motor/share/motor/local_setup.sh
+/home/olia/ros2_ws/src/motor/install/motor/share/motor/local_setup.zsh
+/home/olia/ros2_ws/src/motor/install/motor/share/motor/local_setup.dsv
+/home/olia/ros2_ws/src/motor/install/motor/share/motor/package.dsv
+/home/olia/ros2_ws/src/motor/install/motor/share/ament_index/resource_index/packages/motor
+/home/olia/ros2_ws/src/motor/install/motor/share/motor/cmake/motorConfig.cmake
+/home/olia/ros2_ws/src/motor/install/motor/share/motor/cmake/motorConfig-version.cmake
+/home/olia/ros2_ws/src/motor/install/motor/share/motor/package.xml
